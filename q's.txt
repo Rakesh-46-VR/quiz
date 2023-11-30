@@ -1,0 +1,86 @@
+1. Find out the line which has a syntax error :
+
+int **createMatrix(int rows, int cols) {
+    int **matrix = (int *)malloc(rows * sizeof(int *));
+    for (int i = 0; i < rows; i++) {
+        matrix[i] = (int *)malloc(cols * sizeof(int));
+    }
+    return matrix;
+}
+
+Options :
+1. Line no 2
+2. Line no 4
+3. Line no 6
+4. No Error
+
+2. Consider the following Java code snippet:
+public class MyClass {
+    private int x;
+    public MyClass(int x) {
+        this.x = x;
+    }
+    public void modifyValue(MyClass obj, int val) {
+        obj.x = val;
+    }
+    public static void main(String[] args) {
+        MyClass obj1 = new MyClass(5);
+        MyClass obj2 = new MyClass(10);
+        obj1.modifyValue(obj2, 20);
+        System.out.println(obj1.x);
+        System.out.println(obj2.x);
+    }
+}
+What will be the output of the main method when it is executed?
+
+Options:
+1.  5, 10
+2. 20, 10
+3. 5, 20
+4. Compilation Error
+
+3. Which of the following is not an OOPS concept in Java?
+a. Polymorphism
+b. Inheritance
+c. Compilation
+d. Encapsulation
+
+4. What will be the output of the following Java program?
+
+    class output 
+    {
+        public static void main(String args[])
+        { 
+           StringBuffer s1 = new StringBuffer("Quiz");
+           StringBuffer s2 = s1.reverse();
+           System.out.println(s2);
+        }
+    }
+a. QuizziuQ
+b. ziuQQuiz
+c. Quiz
+d. ziuQ
+
+5. Which of these packages contains the exception Stack Overflow in Java?
+a. java.io
+b. java.system
+c. java.lang
+d. java.util
+
+6. All keywords in C are in ____________
+a. LowerCase letters
+b. UpperCase letters
+c. CamelCase letters
+d. None of the mentioned
+
+7. Which of the following are C preprocessors?
+a. #ifdef
+b. #define
+c. #endif
+d. all of the mentioned
+
+8. How many number of pointer (*) does C have against a pointer variable declaration?
+a. 7
+b. 127
+c. 255
+d. No limits
