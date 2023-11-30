@@ -84,3 +84,58 @@ a. 7
 b. 127
 c. 255
 d. No limits
+
+9. Which data structure follows the Last In, First Out (LIFO) principle?
+
+a. Queue
+b. Stack
+c. Tree
+d. Linked List
+
+
+10. What is the time complexity of searching in a sorted array using binary search?
+
+a. O(n)
+b. O(log n)
+c. O(n log n)
+d. O(1)
+
+
+11. Which data structure is best suited for implementing a priority queue?
+
+a. Array
+b. Linked List
+c. Heap
+d. Stack
+
+
+12. Which data structure is typically used for representing a hierarchical relationship between elements?
+
+a. Queue
+b. Stack
+c. Tree
+d. Graph
+
+
+13. In which data structure does the insertion and deletion occur at both ends?
+
+a. Queue
+b. Stack
+c. Linked List
+d. Deque (Double-ended Queue)
+
+
+14. What is the time complexity for searching in a hash table with a good hash function?
+
+a. O(n)
+b. O(log n)
+c. O(1)
+d. O(n log n)
+
+
+15. Which data structure uses the "First In, First Out" (FIFO) principle?
+
+a. Queue
+b. Stack
+c. Tree
+d. Heap
